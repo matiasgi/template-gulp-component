@@ -1,0 +1,16 @@
+extends ../templates/layout.pug
+
+block includes
+  include ../components/Header/Header.pug
+
+block title
+  title Mck Superiority
+
+block styles
+  link(rel="stylesheet" type="text/css" href="assets/css/styles.css")
+
+block componets
+  +Header()
+
+block scripts
+  script(src="assets/js/app.js")
